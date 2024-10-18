@@ -1,1 +1,2 @@
-Initial commit
+# Java-Programming
+It's my Java programming repository.
