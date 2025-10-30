@@ -31,23 +31,23 @@ public class Functions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //Example 1: Print Name
+         
         System.out.print("enter your name: ");
         String name = sc.next();
         printMyName(name);
 
-        //Example 2: Sum of Two Numbers
+
         System.out.print("enter two numbers: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.println("sum: " + calculateSum(a, b));
 
-        //Example 3: Factorial
+
         System.out.print("enter a number: ");
         int n = sc.nextInt();
         printFactorial(n);
 
-        //Example 4: Average of Three Numbers
+
         System.out.print("enter three numbers: ");
         int x = sc.nextInt(), y = sc.nextInt(), z = sc.nextInt();
         int Average = printAverage(x, y, z);
